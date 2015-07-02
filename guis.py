@@ -80,7 +80,7 @@ class KMapGui(object):
 
 class KMapGui2(KMapGui):
     map_data = [[ 0, 0],
-                 [ 0, 0]]
+                [ 0, 0]]
     all_vars = 'A, B'
     KMapSolver = KMapSolver2
     WindowSize = (280, 200)
@@ -95,7 +95,7 @@ class KMapGui2(KMapGui):
 
 class KMapGui3(KMapGui):
     map_data = [[ 0, 0, 0, 0],
-                 [ 0, 0, 0, 0]]
+                [ 0, 0, 0, 0]]
     all_vars = 'A, B, C'
     KMapSolver = KMapSolver3
     WindowSize = (380, 200)
@@ -112,9 +112,9 @@ class KMapGui3(KMapGui):
 
 class KMapGui4(KMapGui):
     map_data = [[ 0, 0, 0, 0],
-                 [ 0, 0, 0, 0],
-                 [ 0, 0, 0, 0],
-                 [ 0, 0, 0, 0]]
+                [ 0, 0, 0, 0],
+                [ 0, 0, 0, 0],
+                [ 0, 0, 0, 0]]
     all_vars = 'A, B, C, D'
     KMapSolver = KMapSolver4
     WindowSize = (380, 300)
